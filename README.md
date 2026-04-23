@@ -1,4 +1,4 @@
-## Raj Electronics full QA suite - manual + mock API + Selenium POM automation.
+## electronics-web-app-testing - manual + mock API + Selenium POM automation.
 
 ## What this project is
 
