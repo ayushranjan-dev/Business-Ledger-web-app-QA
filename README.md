@@ -4,7 +4,7 @@ Add Raj Electronics full QA suite - manual + mock API + Selenium POM automation
 
 This is a QA project where I tested a real business web app (Raj Electronics Ledger).
 
-I covered:
+	I covered:
 	•	manual testing (test cases + edge cases)
 	•	UI automation using Selenium
 	•	basic data validation using mock/API tests
@@ -62,7 +62,7 @@ Not everything is automated. Some things are easier to catch manually, especiall
 
 ## Automation design
 
-I used a simple Page Object Model:
+	I used a simple Page Object Model:
 	•	locators are kept inside page files
 	•	tests only call actions (like login, add client, etc.)
 	•	if UI changes, only one file needs update
@@ -72,11 +72,11 @@ Firebase loads data asynchronously, so I used explicit waits to avoid false fail
 
 ## Test Coverage
 
-  •	26 manual test cases
+ 	•	26 manual test cases
 	•	~40+ automated UI tests
 	•	~25 mock/API checks
   
-  Covers:
+  	Covers:
 	•	login & auth
 	•	team & client management
 	•	sales & payments
@@ -86,7 +86,7 @@ Firebase loads data asynchronously, so I used explicit waits to avoid false fail
 
   ## Known Issues (found during testing)
   
-  •	Double-click on “Add Team” can create duplicates
+    •	Double-click on “Add Team” can create duplicates
 	•	Dashboard values don’t refresh automatically after updates
 	•	Sorting can behave incorrectly if values are treated as strings
 	•	Login error sometimes shows raw Firebase message
@@ -94,7 +94,7 @@ Firebase loads data asynchronously, so I used explicit waits to avoid false fail
 
 ## Final
 
-This project is my attempt to combine:
-	•	manual QA thinking
+	This project is my attempt to combine:
+  	•	manual QA thinking
 	•	automation basics
 
